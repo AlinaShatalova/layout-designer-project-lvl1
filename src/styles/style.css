@@ -1,1 +1,23 @@
-/** CSS STYLE **/
+body {
+    font-size: 16px;
+    line-height: 1.6em;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    max-width: 1110px;
+    text-align: center;
+    margin: 100px 0px;
+    font-family: 'Neucha', cursive;
+}
+.h1 {
+    font-size: 72px;
+    line-height: 1.2em;
+}
+.h2 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+.h3 {
+    font-size: 34px;
+    line-height: 1.2em;
+}
