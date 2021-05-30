@@ -17,6 +17,10 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
+p {
+    margin-block-start:0; 
+    margin-block-end:0;
+}
 .container {
     max-width: 1110px;
     text-align: center;
@@ -47,21 +51,27 @@ body {
     line-height: 1.2em;
     font-family: 'Neucha', cursive;
 }
+.background {
+
+}
 .header {
     overflow: hidden;
 }
-.header:before {
+.background:before {
     content: "";
     position: absolute;
     top: 0;
     display: block;
     width: 100%;
-    height: 125%;
-    background-color: rgba(245, 244, 240, 1);
-    background-image: url("../images/background.png");
+    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -2;
+}
+.header:before {
+    background-color: rgba(245, 244, 240, 1);
+    background-image: url("../images/background.png");
+    height: 125%;
     opacity: 0.1;
 }
 .h1-left {
@@ -111,8 +121,6 @@ body {
     cursor: pointer;
 }
 .video-section {
-    width: 100%;
-    height: 100%;
     background-color: var(--white);
 }
 .video-text {
@@ -121,4 +129,54 @@ body {
 }
 .video {
     filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+.navigation-section {
+    margin-top: -200px;
+    padding: 100px 0;
+    background-color: var(--main-color-dark);
+}
+.navigation-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.navigation-item {
+    width: 350px;
+}
+.fz-52 {
+    font-size: 52px;
+}
+.h-white {
+    color: var(--white);
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.navigation-item {
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: var(--light);
+}
+.p-0 {
+    padding: 0;
+}
+.navigation-item-link {
+    text-decoration: none;
+    outline: none;
+}
+.bg-dark {
+    background-color: var(--main-color-dark);
+}
+.navigation-item-number {
+    padding-bottom: 40px;
+    font-size: 64px;
+    line-height: 1.1em;
+    font-family: 'Neucha', cursive;
+    color: var(--main-color-dark);
+}
+.navigation-item-text {
+    padding-top: 16px;
+    padding-bottom: 24px;
+    color: var(--dark);
 }
