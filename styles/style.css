@@ -28,18 +28,21 @@ body {
 }
 .h1 {
     margin: 0;
+    font-weight: 400;
     font-size: 72px;
     line-height: 1.2em;
     font-family: 'Neucha', cursive;
 }
 .h2 {
     margin: 0;
+    font-weight: 400;
     font-size: 60px;
     line-height: 1.2em;
     font-family: 'Neucha', cursive;
 }
 .h3 {
     margin: 0;
+    font-weight: 400;
     font-size: 34px;
     line-height: 1.2em;
     font-family: 'Neucha', cursive;
@@ -64,13 +67,15 @@ body {
 .h1-left {
     text-align: left;
 }
-.h1-main-color {
+.h-main-color {
     color: var(--main-color);
-    font-weight: 400;
+    
 }
-.h1-black {
-    line-height: 1em;
+.h-black {
     color: var(--dark);
+}
+.h-lh-1em {
+    line-height: 1em;
 }
 .header-img {
     position: absolute;
@@ -104,4 +109,16 @@ body {
     text-decoration: none;
     outline: none;
     cursor: pointer;
+}
+.video-section {
+    width: 100%;
+    height: 100%;
+    background-color: var(--white);
+}
+.video-text {
+    margin-top: 27px;
+    margin-bottom: 30px;
+}
+.video {
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
