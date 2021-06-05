@@ -5,6 +5,7 @@
 body {
     margin: 0;
 
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.6em;
     font-family: 'Open Sans', sans-serif;
@@ -72,6 +73,9 @@ hr {
 .mb-27 {
     margin-bottom: 27px;
 }
+.mt-30 {
+    margin-top: 30px;
+}
 .mt-40 {
     margin-top: 40px;
 }
@@ -81,14 +85,23 @@ hr {
 .mb-400 {
     margin-bottom: 400px;
 }
+.ml-474 {
+    margin-left: 608px;
+}
 .ml-570 {
     margin-left: 570px;
 }
 .pl-15 {
     padding-left: 15px;
 }
+.pr-15 {
+    padding-right: 15px;
+}
 .p-24 {
     padding: 24px 24px 0px 24px;
+}
+.pl-30 {
+    padding-left: 30px;
 }
 .pb-40 {
     padding-bottom: 40px;
@@ -133,7 +146,8 @@ hr {
     --main-color-dark: #42413c;
     --dark: #2a2626;
     --half-dark: #908d8b;
-    --blue: #1085c5; 
+    --blue: #1085c5;
+    --bg-dark: #b09a81; 
 }
 
 /** fonts colors**/
@@ -148,6 +162,9 @@ hr {
 }
 .main-dark-color {
     color: var(--main-color-dark);
+}
+.half-dark-color {
+    color: var(--half-dark);
 }
 /**background colors**/
 .background-light {
@@ -237,4 +254,37 @@ hr {
 }
 .navigation-item-text {
     padding-bottom: 24px;
+}
+/** IKEA EFFECT **/
+.ikea-effect-top {
+    width: calc(100% - 608px);
+}
+.cognitive-biases {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2em;
+    font-family: 'Neucha', cursive;
+
+    color: var(--half-dark);
+}
+.top-text {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 1.2em;
+    font-family: 'Neucha', cursive;
+}
+.desc-title {
+    display: block;
+    margin: 100px 0px 20px;
+    padding-left: 10px;
+    width: 100%;
+    height: 26px;
+
+    font-weight: 700;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+
+    background-color: var(--bg-dark);
+    text-align: left;
+    text-transform: uppercase;
 }
